@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Chewy&family=Handjet:wght@200;300;400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Roboto", arial, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 0 16px;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+}
+.left-section img {
+  width: 58%;
+  padding-left: 16px;
+  cursor: grab;
+}
+.mid-section {
+  display: flex;
+  justify-content: center;
+  margin-left: -9%;
+}
+.mid-section form {
+  display: flex;
+  height: 40px;
+  width: 628px;
+}
+.mid-section input {
+  width: 100%;
+  border-radius: 4px 0 0 4px;
+  padding: 12px;
+  font-size: 1.6rem;
+  border: 1px solid #d7d7d7;
+  border-right: none;
+}
+.mid-section button {
+  width: 64px;
+  border: 1px solid #d7d7d7;
+  border-radius: 0 4px 4px 0;
+  padding-top: 4px;
+  background-color: #eeee;
+  cursor: pointer;
+}
+.mid-section button:hover {
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
+}
+.mid-section .mic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #eeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.right-section a {
+  color: black;
+  padding-right: 18px;
+  text-decoration: none;
+}
+.content-area {
+  height: calc(100vh - 56px);
+  display: flex;
+  background-color: #f9f9f9;
+}
+aside {
+  height: 100%;
+  width: 280px;
+  background-color: white;
+  overflow-y: auto;
+}
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  padding-right: 15px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: black;
+}
+.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.nav-link span {
+  margin-left: 24px;
+  font-size: 1.4rem;
+  line-height: 2em;
+  color: #2b2b2bd1;
+}
+.active {
+  background-color: #e5e5e5;
+}
+#active-span {
+  font-weight: 500;
+}
+hr{
+height: 1px;
+background-color: #e5e5e5;
+border: none;
+margin: 10px 0;
+}
